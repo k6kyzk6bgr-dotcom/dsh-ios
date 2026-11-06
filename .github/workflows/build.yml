@@ -22,11 +22,6 @@ jobs:
         run: |
           brew install meson ninja lld
 
-      - name: Install App Dependencies
-        run: |
-          npm install
-        working-directory: app
-
       - name: Build Emulator and RootFS
         run: |
           make emulator
