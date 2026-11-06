@@ -20,7 +20,7 @@ jobs:
 
       - name: Install System Dependencies
         run: |
-          brew install meson ninja lld
+          brew install meson ninja lld libarchive
 
       - name: Build Emulator and RootFS
         run: |
